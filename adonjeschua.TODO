@@ -1,0 +1,42 @@
+  Main Menu:
+ ☐ submenu @today @critical
+ ☐ font mac @check
+ ☐ h1 verschwindet? @today @critical @check
+ suchen:
+  ☐ search menu @check @today
+  ☐ icon 21x21 @check
+  ☐ feld: 130 x21 @check
+
+ template:
+ ☐ Termine
+ ☐ Kontakte mit maps
+
+ lang Menu:
+ ☐ checken @high @check
+ ☐ Höhe und Größe ca. 28x 18 @check
+
+Footer:
+  ☐ rechts, ohne vertauscht zu sein @today @high @check
+Allgemein:
+ ☐ scroll balken sollte weg sein @critical
+ ✔ .htaccess @check @done (14-12-29 22:30)
+ ✔ Links @critical @done (14-12-29 22:30)
+ ☐ updates @low
+ ☐ fonts @check
+ ☐ responsive, mit stacking @check
+ ☐ Logo @high @today @check
+ ☐ Error Pages @check
+ ☐ Logo dynamisch einbinden @low
+ ☐ template change mode @low
+ ☐ Teaser Down @high @today
+ ☐ slider @high @today
+ ☐ count modules -> no right modules if there are not used @check
+ ☐ Sermons @low
+ ☐ News @low
+ ☐ Typography @low
+ ☐ breadcrumbs @high @check
+ ☐ Abstände zw. Main Menu, Breadcrumbs & h1 @high @check
+ ☐ li type: none @check
+
+ Kalender:
+   ☐ Farben
