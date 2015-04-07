@@ -10,6 +10,11 @@
         <license>Proprietary, EULA owned by Adon Jeschua Messianic Congration Stuttgart</license>
         <version>1.0.0</version>
         <description>TPL_AJ_XML_DESC</description>
+        <updateservers>
+        <server type="template" priority="1" name="Adon Jeschua Template">https://bitbucket.org/bsesic/adon-jeschua-template/raw/a8b8097887b02d862ee4df6aceb2d510c015f527/update.xml</server>
+        <server type="template" priority="2" name="Adon Jeschua Template">https://github.com/bsesic/Adonjeschua-Template/blob/master/update.xml</server>
+        <server type="template" priority="3" name="Adon Jeschua Template">http://benjaminschnabel.de/adonjeschuatemplate/update.xml</server>
+    </updateservers>
 
         <files>
                 <filename>index.php</filename>

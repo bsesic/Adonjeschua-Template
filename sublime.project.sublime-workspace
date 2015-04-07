@@ -76,6 +76,14 @@
 	"buffers":
 	[
 		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 10149,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "layout.php",
 			"settings":
 			{
@@ -84,18 +92,10 @@
 			}
 		},
 		{
-			"file": "css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 121871,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css/overrides.css",
 			"settings":
 			{
-				"buffer_size": 6382,
+				"buffer_size": 7750,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +103,7 @@
 			"file": "src/less/variables.less",
 			"settings":
 			{
-				"buffer_size": 27152,
+				"buffer_size": 27151,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,18 +116,66 @@
 			}
 		},
 		{
-			"file": "index.php",
+			"file": "css/editor.css",
 			"settings":
 			{
-				"buffer_size": 10174,
+				"buffer_size": 1500,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/mod_menu/default.php",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1921,
+				"buffer_size": 1294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_breadcrumbs/default.php",
+			"settings":
+			{
+				"buffer_size": 1740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_breadcrumbs/helper.php",
+			"settings":
+			{
+				"buffer_size": 2078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 142962,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/less/breadcrumbs.less",
+			"settings":
+			{
+				"buffer_size": 802,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_bootstrapnav/default.php",
+			"settings":
+			{
+				"buffer_size": 5238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_search/default.php",
+			"settings":
+			{
+				"buffer_size": 1676,
 				"line_ending": "Unix"
 			}
 		}
@@ -135,9 +183,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
 			[
 				"Package Control: i",
 				"Package Control: Install Package"
@@ -187,7 +243,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -198,12 +254,30 @@
 		"menu_visible": true,
 		"show_minimap": false,
 		"show_open_files": false,
-		"show_tabs": false,
-		"side_bar_visible": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins/alerts.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/variables.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/theme.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/css/bootstrap.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins/pagination.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/mod_breadcrumbs.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/mod_breadcrumbs.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/tmpl/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/templateDetails.xml",
+		"/C/Users/Benni/Websites/K2_v2.6.9/k2.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default.php",
+		"/C/Users/Benni/Websites/adonjeschua/configuration.php",
+		"/C/Users/Benni/Websites/adonjeschua/logs/error.php",
+		"/C/Users/Benni/Websites/adonjeschua/logs/jcontroller.log.php",
+		"/C/Users/Benni/Websites/adonjeschua/.htaccess",
+		"/C/Users/Benni/Websites/adonjeschua/index.php",
 		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_component.php",
 		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_heading.php",
 		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_url.php",
@@ -221,13 +295,11 @@
 		"/C/Users/Benni/Websites/adonjeschua_template/css/overrides.css",
 		"/C/Users/Benni/Websites/adonjeschua/templates/system/css/editor.css",
 		"/C/Users/Benni/Websites/adonjeschua_template/css/editor.css",
-		"/C/Users/Benni/Websites/adonjeschua_template/css/bootstrap.css",
 		"/C/Users/Benni/Websites/adonjeschua_template/adonjeschua.TODO",
 		"/C/Users/Benni/Websites/adonjeschua_template/js/mainmenu.js",
 		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/config.xml",
 		"/C/Users/Benni/Websites/adonjeschua_template/layout.php",
 		"/C/Users/Benni/Websites/adonjeschua_template/index.php",
-		"/C/Users/Benni/Websites/adonjeschua_template/templateDetails.xml",
 		"/C/Users/Benni/Websites/adonjeschua_template/bootstrap/fonts/glyphicons-halflings-regular.eot",
 		"/C/Users/Benni/Websites/adonjeschua_template/css/bootstrap-min.css",
 		"/C/Users/Benni/Downloads/magic-bootstrap-min.css",
@@ -236,10 +308,8 @@
 		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/css/template.css",
 		"/C/Users/Benni/Websites/adonjeschua/templates/oziofullscreen/css/template.css",
 		"/C/Users/Benni/Websites/adonjeschua/templates/system/css/error.css",
-		"/C/Users/Benni/Websites/adonjeschua/configuration.php",
 		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/templateDetails.xml",
 		"/C/Users/Benni/.emulationstation/gamelists/n64/gamelist.xml",
-		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default.php",
 		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/tmpl/default.php",
 		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/tmpl/default_component.php",
 		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/language/en-GB/en-GB.tpl_adonjeschua.sys.ini",
@@ -317,13 +387,7 @@
 		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_jevents_latest/alternative/latest.php",
 		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/assets/css/modstyle.css",
 		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/abstract/abstract.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/jevent/view.html.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_jdownloads_latest/alternate.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_jdownloads_latest/default.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/modlatest/view.feed.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_jdownloads_latest/mod_jdownloads_latest.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/views/alternative/assets/css/modstyle.css",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/bootstrap/css/bootstrap-theme.min.css"
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/jevent/view.html.php"
 	],
 	"find":
 	{
@@ -331,9 +395,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\Benni\\Websites\\adonjeschua_template\\src\\css\\mixins"
 		]
 	},
 	"find_state":
@@ -341,6 +406,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"search",
+			"active",
+			"container",
+			"bread",
+			"Modules",
 			"navbar-colla",
 			"navbar",
 			"navb",
@@ -402,11 +472,40 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 12,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 10149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "layout.php",
 					"settings":
 					{
@@ -417,8 +516,8 @@
 						"selection":
 						[
 							[
-								2053,
-								2014
+								4196,
+								4196
 							]
 						],
 						"settings":
@@ -430,36 +529,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 173.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/bootstrap.css",
-					"settings":
-					{
-						"buffer_size": 121871,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								71557,
-								71557
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 50745.0,
+						"translation.y": 1149.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -469,15 +539,15 @@
 					"file": "css/overrides.css",
 					"settings":
 					{
-						"buffer_size": 6382,
+						"buffer_size": 7750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1407,
-								1407
+								5140,
+								5140
 							]
 						],
 						"settings":
@@ -486,7 +556,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 536.0,
+						"translation.y": 3733.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -496,15 +566,15 @@
 					"file": "src/less/variables.less",
 					"settings":
 					{
-						"buffer_size": 27152,
+						"buffer_size": 27151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11988,
-								11988
+								25016,
+								25016
 							]
 						],
 						"settings":
@@ -513,7 +583,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4762.0,
+						"translation.y": 10543.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -549,52 +619,221 @@
 				},
 				{
 					"buffer": 5,
-					"file": "index.php",
+					"file": "css/editor.css",
 					"settings":
 					{
-						"buffer_size": 10174,
+						"buffer_size": 1500,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6557,
-								6557
+								1368,
+								1368
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2259.0,
+						"translation.y": 192.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "html/mod_menu/default.php",
+					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 1921,
+						"buffer_size": 1294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								679,
-								679
+								525,
+								529
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "html/mod_breadcrumbs/default.php",
+					"settings":
+					{
+						"buffer_size": 1740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1435,
+								1435
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "html/mod_breadcrumbs/helper.php",
+					"settings":
+					{
+						"buffer_size": 2078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 142962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46132,
+								46132
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36036.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/less/breadcrumbs.less",
+					"settings":
+					{
+						"buffer_size": 802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "html/mod_bootstrapnav/default.php",
+					"settings":
+					{
+						"buffer_size": 5238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1228,
+								1228
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "html/mod_search/default.php",
+					"settings":
+					{
+						"buffer_size": 1676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1340
+							]
+						],
+						"settings":
+						{
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
