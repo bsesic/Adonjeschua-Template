@@ -79,7 +79,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 10149,
+				"buffer_size": 9963,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "css/overrides.css",
 			"settings":
 			{
-				"buffer_size": 7750,
+				"buffer_size": 7770,
 				"line_ending": "Windows"
 			}
 		},
@@ -124,42 +124,10 @@
 			}
 		},
 		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1294,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "html/mod_breadcrumbs/default.php",
-			"settings":
-			{
-				"buffer_size": 1740,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "html/mod_breadcrumbs/helper.php",
-			"settings":
-			{
-				"buffer_size": 2078,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/css/bootstrap.css",
 			"settings":
 			{
-				"buffer_size": 142962,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/less/breadcrumbs.less",
-			"settings":
-			{
-				"buffer_size": 802,
+				"buffer_size": 142955,
 				"line_ending": "Unix"
 			}
 		},
@@ -177,6 +145,23 @@
 			{
 				"buffer_size": 1676,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_jevents_latest/adonjeschua/latest.php",
+			"settings":
+			{
+				"buffer_size": 4699,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mod_jevents_table_test.php",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Windows",
+				"name": "<html>"
 			}
 		}
 	],
@@ -260,6 +245,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Benni/Websites/adonjeschua_template/src/less/breadcrumbs.less",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/helper.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/default.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/README.md",
 		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins/alerts.css",
 		"/C/Users/Benni/Websites/adonjeschua_template/src/css/variables.css",
 		"/C/Users/Benni/Websites/adonjeschua_template/src/css/theme.css",
@@ -383,11 +372,7 @@
 		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/tmpl/default.php",
 		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/assets/powertools-1.2.0.js",
 		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/assets/slider.js",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/index.html",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_jevents_latest/alternative/latest.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/assets/css/modstyle.css",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/abstract/abstract.php",
-		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/com_jevents/alternative/jevent/view.html.php"
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/index.html"
 	],
 	"find":
 	{
@@ -395,7 +380,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Users\\Benni\\Websites\\adonjeschua_template\\src\\css\\mixins"
@@ -472,7 +457,7 @@
 	"groups":
 	[
 		{
-			"selected": 12,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -480,15 +465,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 10149,
+						"buffer_size": 9963,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								675,
-								675
+								9506,
+								9506
 							]
 						],
 						"settings":
@@ -499,7 +484,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 56.0,
+						"translation.y": 2912.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -516,8 +501,8 @@
 						"selection":
 						[
 							[
-								4196,
-								4196
+								886,
+								1471
 							]
 						],
 						"settings":
@@ -529,7 +514,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1149.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -539,15 +524,15 @@
 					"file": "css/overrides.css",
 					"settings":
 					{
-						"buffer_size": 7750,
+						"buffer_size": 7770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5140,
-								5140
+								3068,
+								3068
 							]
 						],
 						"settings":
@@ -556,7 +541,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3733.0,
+						"translation.y": 1784.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -579,6 +564,7 @@
 						],
 						"settings":
 						{
+							"is_preview": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
@@ -606,6 +592,7 @@
 						],
 						"settings":
 						{
+							"is_preview": true,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 2,
@@ -647,66 +634,10 @@
 				},
 				{
 					"buffer": 6,
-					"file": "README.md",
+					"file": "src/css/bootstrap.css",
 					"settings":
 					{
-						"buffer_size": 1294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								525,
-								529
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "html/mod_breadcrumbs/default.php",
-					"settings":
-					{
-						"buffer_size": 1740,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1435,
-								1435
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 156.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "html/mod_breadcrumbs/helper.php",
-					"settings":
-					{
-						"buffer_size": 2078,
+						"buffer_size": 142955,
 						"regions":
 						{
 						},
@@ -720,75 +651,18 @@
 						"settings":
 						{
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/css/bootstrap.css",
-					"settings":
-					{
-						"buffer_size": 142962,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46132,
-								46132
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 36036.0,
+						"translation.y": 35994.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "src/less/breadcrumbs.less",
-					"settings":
-					{
-						"buffer_size": 802,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								446,
-								446
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 7,
 					"file": "html/mod_bootstrapnav/default.php",
 					"settings":
 					{
@@ -799,8 +673,8 @@
 						"selection":
 						[
 							[
-								1228,
-								1228
+								329,
+								329
 							]
 						],
 						"settings":
@@ -811,13 +685,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 100.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 8,
 					"file": "html/mod_search/default.php",
 					"settings":
 					{
@@ -837,6 +711,61 @@
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "html/mod_jevents_latest/adonjeschua/latest.php",
+					"settings":
+					{
+						"buffer_size": 4699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 214.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "mod_jevents_table_test.php",
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<html>",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

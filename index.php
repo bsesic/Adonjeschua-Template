@@ -137,11 +137,7 @@ ga('send', 'pageview');
 			<div class="col-xs-12 col-sm-13 col-md-12 col-lg-12 ">
 				<!-- Main Menu -->
 				<div class="col-md-12 mainmenu">
-					<nav class="navbar navbar-default navbar-static-top" role="navigation" id="mainmenu">
-						<!--<ul class="nav navbar-nav">-->
 						<jdoc:include type="modules" name="mainmenu" type="none" title="Main Menu" style="none"/>
-						<!--</ul>-->
-					</nav>
 				</div>
 				<!-- needs to be replaced by an alternative menu -->
 				<div class="col-xs-12 visible-xs">
@@ -263,8 +259,6 @@ ga('send', 'pageview');
 		<jdoc:include type="modules" name="debug" />
 	</div>
 </div>
-
-<div id="push"></div>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

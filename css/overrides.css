@@ -162,19 +162,19 @@ hr {
 	padding-bottom: 4px;
 }
 
-.language ul > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+.language ul > li.lang-active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.lang-active > a:focus {
 	background: #DED6AD;
 	border: none;
 	color: #FFF;
 }
 
-.language ul li.active{
+.language ul li.lang-active{
 	background: #BFA980;
 	color: #FFF;
 	
 }
 
-.language ul li.active a{
+.language ul li.lang-active a{
 	background: transparent;
 }
 
