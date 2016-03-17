@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Main Menu Test</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    <script src="mainmenutest.js"></script>
+    <link rel="stylesheet" href="mainmenutest.css" />
+</head>
+<body>
+<div class="row">
+    <div class="col-xs-1 col-xs-offset-11 visible-xs-block burger">
+        <a href="#"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <!-- Main Menu -->
+        <div class="col-xs-10 col-sm-9 col-md-12 mainmenu">
+            <ul class="nav navbar-nav">
+                <li class="item-101 current active">
+                    <a href="/adonjeschua/index.php?option=com_content&amp;view=article&amp;id=13&amp;Itemid=101&amp;lang=de">Start</a>
+                </li>
+                <li class="item-116 deeper parent"><span class="nav-header" style="">Aktuelles</span>
+                    <ul class="submenu"><li class="item-151">
+                        <a href="/adonjeschua/index.php?option=com_jevents&amp;view=month&amp;layout=calendar&amp;Itemid=151&amp;lang=de">Termine</a>
+                    </li>
+                        <li class="item-103">
+                            <a href="/adonjeschua/index.php?option=com_k2&amp;view=itemlist&amp;layout=category&amp;task=category&amp;id=1&amp;Itemid=103&amp;lang=de">News</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item-117"><span class="nav-header">Über uns</span></li>
+                <li class="item-118"><span class="nav-header">Projekte</span></li>
+                <li class="item-119 deeper parent"><span class="nav-header">Material</span>
+                    <ul class="submenu"><li class="item-158">
+                        <a href="/adonjeschua/index.php?option=com_content&amp;view=article&amp;id=11&amp;Itemid=158&amp;lang=de">Lehre</a>
+                    </li>
+                        <li class="item-169">
+                            <a href="/adonjeschua/index.php?option=com_sermonspeaker&amp;view=sermons&amp;Itemid=169&amp;lang=de">Predigten</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item-120">
+                    <a href="/adonjeschua/index.php?option=com_content&amp;view=article&amp;id=9&amp;Itemid=120&amp;lang=de">Spende</a>
+                </li>
+                <li class="item-121"><span class="nav-header">Links</span></li>
+                <li class="item-157">
+                    <a href="/adonjeschua/index.php?option=com_content&amp;view=article&amp;id=10&amp;Itemid=157&amp;lang=de">Typography</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- Language
+        <div class="col-sm-3 col-md-2 col-md-offset-1 pull-right language hidden-xs padding-right-off">
+            <div class="mod-languages">
+
+                <ul class="lang-inline">
+                    <li dir="ltr" class="lang-active">
+                        <a href="http://localhost/adonjeschua/index.php?lang=de">
+                            DE						</a>
+                    </li>
+                    <li dir="ltr" class="">
+                        <a href="/adonjeschua/index.php?option=com_content&amp;view=article&amp;id=12:russian-startpage&amp;catid=2&amp;lang=ru&amp;Itemid=159">
+                            RU						</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div> -->
+        <!-- Line -->
+        <hr id="up" class="col-sm-15 col-md-12 hidden-xs">
+        <!-- Search -->
+        <div class="col-sm-3 col-sm-offset-12 col-md-3 col-md-offset-12 hidden-xs">
+            <div class="search">
+                <form class="form-inline" method="post" action="/adonjeschua/index.php?lang=de">
+                    <input type="text" onfocus="if (this.value=='Suchen ...') this.value='';" onblur="if (this.value=='') this.value='Suchen ...';" value="Suchen ..." size="13" class="inputbox search-query form-control" maxlength="20" id="mod-search-searchword" name="searchword"> <button onclick="this.form.searchword.focus();" src="" class="btn glyphicon glyphicon-search white" value="Suchen" type="image">		<input type="hidden" value="search" name="task">
+                    <input type="hidden" value="com_search" name="option">
+                    <input type="hidden" value="101" name="Itemid">
+
+                </button></form></div>
+
+        </div>
+        <!-- Breadcrumb -->
+        <div class="col-xs-10 col-sm-12 col-md-12 padding-left-off">
+            <ol class="breadcrumb">
+                <div class="moduletable">
+
+                    <ul class="breadcrumb">
+                        <li class="active"><span class="divider icon-location"></span></li><li class="active"><span>Startseite</span></li></ul>
+                </div>
+
+            </ol>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
