@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfcb09a8-0184-4856-9eae-0f17b2d11850" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/folder_structure.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/tmpl/detail_body16.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultloadedfromtemplate-KEEP.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/css/dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/css/ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/addsign.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/addsign_a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/box_left_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-calendarview.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-cats.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-daily.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-event-active.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-event-enddate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-event-inactive.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-event-middate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-event-onedate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-event-startdate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-flyer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-mini-week.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-recur-event-active.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-recur-event-inactive.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-tag-menu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-visibility.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/icon-weekly.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/selected.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/tile_sub.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/images/txtboxbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/js/layout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/icalevent/tmpl/detail_body16.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/com_jevents/flat/month/tmpl/calendar_responsive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index - Kopie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-2.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/unit/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/vendor/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/vendor/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mod_jevents_table_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/alerts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/background-variant.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/border-radius.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/center-block.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/clearfix.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/gradients.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/grid-framework.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/hide-text.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/labels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/list-group.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/nav-divider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/nav-vertical-align.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/opacity.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/panels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/progress-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/reset-filter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/resize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/responsive-visibility.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/size.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/tab-focus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/table-row.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/text-emphasis.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/text-overflow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/mixins/vendor-prefixes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/responsive-embed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/variables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_data/browser-bugs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_data/core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_data/glyphicons.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_data/sass-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_data/showcase.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_data/translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/ads.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/button-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/button-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/input-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/jumbotron.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/list-group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/navs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/page-header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/responsive-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/components/wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/responsive-utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/sass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/css/type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/customizer-variables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/browser-device-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/community.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/grunt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/third-party-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/tools.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/translations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/getting-started/whats-included.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/tooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/js/transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/nav/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_includes/social-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_jade/customizer-nav.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_jade/customizer-variables.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_plugins/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/_plugins/bugify.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/brand/bootstrap-outline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/brand/bootstrap-punchout.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/brand/bootstrap-solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/css/docs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/css/src/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/css/src/pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/flash/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/img/components.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/img/devices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/img/sass-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/customize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/raw-files.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/src/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/src/customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/Blob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/holder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/assets/js/vendor/uglify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/browser-bugs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/blog/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/carousel/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/cover/cover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/cover/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/dashboard/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/dashboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/grid/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/jumbotron-narrow/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/jumbotron/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/jumbotron/jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/justified-nav/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/justified-nav/justified-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/navbar-fixed-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/navbar-static-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/navbar/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/non-responsive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/non-responsive/non-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/offcanvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/offcanvas/offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/offcanvas/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/carousel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/equal-height-columns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/jumbotron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/justified-nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/navbar-fixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/navbar-static.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/non-responsive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/offcanvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/sign-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/starter-template.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/sticky-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/screenshots/theme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/signin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/signin/signin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/starter-template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/starter-template/starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/sticky-footer-navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/sticky-footer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/sticky-footer/sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/theme/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/tooltip-viewport/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/docs/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/unit/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/vendor/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/vendor/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test-infra/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test-infra/S3Cachefile.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test-infra/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test-infra/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test-infra/s3_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test-infra/uncached-npm-install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template_preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template_thumbnail.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/overrides.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/images/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.synkron.syncdb" afterPath="$PROJECT_DIR$/.synkron.syncdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adonjeschua.TODO" afterPath="$PROJECT_DIR$/adonjeschua.TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/abstract/abstract.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/abstract/abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/admin/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/admin/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/assets/css/events_css.css" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/assets/css/events_css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/assets/css/modstyle.css" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/assets/css/modstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/cat/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/cat/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/day/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/day/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/helpers/alternativeviewnavtablebariconic.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/helpers/alternativeviewnavtablebariconic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/tmpl/detail.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/tmpl/detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/tmpl/detail_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/tmpl/detail_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/icalevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/icals/tmpl/ical_form.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/icals/tmpl/ical_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/icals/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/icals/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/jevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/jevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/month/tmpl/calendar_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/month/tmpl/calendar_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/month/tmpl/calendar_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/month/tmpl/calendar_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/month/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/month/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/range/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/range/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/search/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/week/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/week/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/alternative/year/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/alternative/year/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/crawler/metadata.xml" afterPath="$PROJECT_DIR$/html/com_jevents/crawler/metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/abstract/abstract.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/abstract/abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/admin/tmpl/listevents_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/admin/tmpl/listevents_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/admin/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/admin/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/assets/css/events_css.css" afterPath="$PROJECT_DIR$/html/com_jevents/default/assets/css/events_css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/assets/css/modstyle.css" afterPath="$PROJECT_DIR$/html/com_jevents/default/assets/css/modstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/cat/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/cat/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/crawler/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/crawler/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/day/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/day/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaulteventicaldialog.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaulteventicaldialog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaulteventmanagementdialog.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaulteventmanagementdialog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultexportscript.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultexportscript.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultgetstartenddates.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultgetstartenddates.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultinformation.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultinformation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultinformation16.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultinformation16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultloadedfromtemplate.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultloadedfromtemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultpaginationform.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultpaginationform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewdatecelladdevent.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewdatecelladdevent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultvieweventrowadmin.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultvieweventrowadmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelperfooter16.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelperfooter16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelperheader16.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelperheader16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelpershownavtablebar.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelpershownavtablebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelperviewnavadminpanel.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewhelperviewnavadminpanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewnavtablebar.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewnavtablebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewnavtablebariconic.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/helpers/defaultviewnavtablebariconic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/ical/tmpl/ical_form.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/ical/tmpl/ical_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/ical/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/ical/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/icalevent/tmpl/detail_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/icalevent/tmpl/detail_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/icalevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/icalevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/icals/tmpl/ical_form.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/icals/tmpl/ical_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/icals/tmpl/importform.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/icals/tmpl/importform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/icals/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/icals/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/jevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/jevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/list/tmpl/events_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/list/tmpl/events_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/list/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/list/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/month/tmpl/calendar_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/month/tmpl/calendar_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/month/tmpl/calendar_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/month/tmpl/calendar_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/month/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/month/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/range/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/range/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/search/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/week/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/week/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/default/year/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/default/year/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/abstract/abstract.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/abstract/abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/admin/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/admin/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/assets/css/events_css.css" afterPath="$PROJECT_DIR$/html/com_jevents/ext/assets/css/events_css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/assets/css/modstyle.css" afterPath="$PROJECT_DIR$/html/com_jevents/ext/assets/css/modstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/cat/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/cat/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/day/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/day/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/helpers/extviewnavtablebariconic.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/helpers/extviewnavtablebariconic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/icalevent/tmpl/detail_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/icalevent/tmpl/detail_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/icalevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/icalevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/icals/tmpl/ical_form.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/icals/tmpl/ical_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/icals/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/icals/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/jevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/jevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/month/tmpl/calendar_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/month/tmpl/calendar_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/month/tmpl/calendar_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/month/tmpl/calendar_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/month/tmpl/calendar_toolip.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/month/tmpl/calendar_toolip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/month/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/month/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/range/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/range/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/search/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/week/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/week/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/ext/year/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/ext/year/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/abstract/abstract.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/abstract/abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/admin/tmpl/listevents_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/admin/tmpl/listevents_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/admin/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/admin/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/css/events_css.css" afterPath="$PROJECT_DIR$/html/com_jevents/flat/assets/css/events_css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/assets/css/modstyle.css" afterPath="$PROJECT_DIR$/html/com_jevents/flat/assets/css/modstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/cat/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/cat/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/crawler/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/crawler/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/day/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/day/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewhelperfooter16.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewhelperfooter16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewhelperheader.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewhelperheader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewhelperheader16.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewhelperheader16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewnavtablebariconic.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/helpers/flatviewnavtablebariconic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/ical/tmpl/ical_form.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/ical/tmpl/ical_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/ical/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/ical/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/icalevent/tmpl/detail_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/icalevent/tmpl/detail_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/icalevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/icalevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/icals/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/icals/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/jevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/jevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/month/tmpl/calendar_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/month/tmpl/calendar_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/month/tmpl/calendar_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/month/tmpl/calendar_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/month/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/month/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/range/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/range/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/search/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/week/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/week/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/flat/year/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/flat/year/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/abstract/abstract.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/abstract/abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/admin/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/admin/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/assets/css/events_css.css" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/assets/css/events_css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/assets/css/modstyle.css" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/assets/css/modstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/cat/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/cat/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/day/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/day/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/icalevent/tmpl/detail_body.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/icalevent/tmpl/detail_body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/icalevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/icalevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/icals/tmpl/ical_form.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/icals/tmpl/ical_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/icals/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/icals/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/jevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/jevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/month/tmpl/calendar_cell.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/month/tmpl/calendar_cell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/month/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/month/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/range/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/range/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/search/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/search/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/week/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/week/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/geraint/year/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/geraint/year/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icalevent/tmpl/select.php" afterPath="$PROJECT_DIR$/html/com_jevents/icalevent/tmpl/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icalevent/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/icalevent/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icalrepeat/tmpl/select.php" afterPath="$PROJECT_DIR$/html/com_jevents/icalrepeat/tmpl/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icalrepeat/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/icalrepeat/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icals/metadata.xml" afterPath="$PROJECT_DIR$/html/com_jevents/icals/metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icals/tmpl/export.php" afterPath="$PROJECT_DIR$/html/com_jevents/icals/tmpl/export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icals/tmpl/ical.xml" afterPath="$PROJECT_DIR$/html/com_jevents/icals/tmpl/ical.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/icals/view.html.php" afterPath="$PROJECT_DIR$/html/com_jevents/icals/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/modlatest/tmpl/rss.php" afterPath="$PROJECT_DIR$/html/com_jevents/modlatest/tmpl/rss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/modlatest/view.feed.php" afterPath="$PROJECT_DIR$/html/com_jevents/modlatest/view.feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/month/metadata.xml" afterPath="$PROJECT_DIR$/html/com_jevents/month/metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/com_jevents/range/metadata.xml" afterPath="$PROJECT_DIR$/html/com_jevents/range/metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_djimageslider/assets/slider.js" afterPath="$PROJECT_DIR$/html/mod_djimageslider/assets/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_djimageslider/helper.php" afterPath="$PROJECT_DIR$/html/mod_djimageslider/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_djimageslider/language/en-GB/en-GB.mod_djimageslider.ini" afterPath="$PROJECT_DIR$/html/mod_djimageslider/language/en-GB/en-GB.mod_djimageslider.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_djimageslider/mod_djimageslider.php" afterPath="$PROJECT_DIR$/html/mod_djimageslider/mod_djimageslider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_djimageslider/mod_djimageslider.xml" afterPath="$PROJECT_DIR$/html/mod_djimageslider/mod_djimageslider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_djimageslider/tmpl/default.php" afterPath="$PROJECT_DIR$/html/mod_djimageslider/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_jevents_latest/adonjeschua/latest.php" afterPath="$PROJECT_DIR$/html/mod_jevents_latest/adonjeschua/latest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_jevents_latest/alternative/latest.php" afterPath="$PROJECT_DIR$/html/mod_jevents_latest/alternative/latest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/mod_jevents_latest/default/latest.php" afterPath="$PROJECT_DIR$/html/mod_jevents_latest/default/latest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mainmenu.js" afterPath="$PROJECT_DIR$/js/mainmenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.ini" afterPath="$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.sys.ini" afterPath="$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.sys.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.sys.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.sys.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sublime.project.sublime-project" afterPath="$PROJECT_DIR$/sublime.project.sublime-project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sublime.project.sublime-workspace" afterPath="$PROJECT_DIR$/sublime.project.sublime-workspace" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templateDetails.xml" afterPath="$PROJECT_DIR$/templateDetails.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.xml" afterPath="$PROJECT_DIR$/update.xml" />
+    </list>
+    <ignored path="adonjeschua_template.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="adonjeschua_template" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="folder_structure.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/folder_structure.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5151515">
+              <caret line="191" column="15" selection-start-line="191" selection-start-column="15" selection-end-line="191" selection-end-column="15" />
+              <folding>
+                <marker date="1457258062530" expanded="true" signature="5240:5254" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/update.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templateDetails.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templateDetails.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.692307">
+              <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.tpl_adonjeschua.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.tpl_adonjeschua.sys.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.sys.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="de-DE.tpl_adonjeschua.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="de-DE.tpl_adonjeschua.sys.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.sys.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/folder_structure.md" />
+        <option value="$PROJECT_DIR$/tests/layout.php" />
+        <option value="$PROJECT_DIR$/update.xml" />
+        <option value="$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.ini" />
+        <option value="$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.sys.ini" />
+        <option value="$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.ini" />
+        <option value="$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.sys.ini" />
+        <option value="$PROJECT_DIR$/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="C:\Users\Benni\Websites\adonjeschua\libraries" />
+      <path value="C:\Users\Benni\Websites\adonjeschua\includes" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_bootstrapmenu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_bootstrapmenu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adonjeschua_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adonjeschua/tmp/adonjeschua" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Benni\Websites\adonjeschua_template" />
+      <recent name="C:\Users\Benni\Websites\adonjeschua_template\tests" />
+      <recent name="C:\Users\Benni\Websites\adonjeschua_template\assets" />
+      <recent name="C:\Users\Benni\Websites\adonjeschua_template\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfcb09a8-0184-4856-9eae-0f17b2d11850" name="Default" comment="" />
+      <created>1440706684918</created>
+      <option name="number" value="Default" />
+      <updated>1440706684918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="1092" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15448852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gerrit" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ultimate PasteBin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/folder_structure.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457258062530" expanded="true" signature="5240:5254" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="78" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_structure.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457258062530" expanded="true" signature="5240:5254" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_preview.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43541202">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2391775">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mainmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/index - Kopie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018930959">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018930959">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_thumbnail.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_preview.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/folder_structure.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.tpl_adonjeschua.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/de-DE/de-DE.tpl_adonjeschua.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.692307">
+          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5151515">
+          <caret line="191" column="15" selection-start-line="191" selection-start-column="15" selection-end-line="191" selection-end-column="15" />
+          <folding>
+            <marker date="1457258062530" expanded="true" signature="5240:5254" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

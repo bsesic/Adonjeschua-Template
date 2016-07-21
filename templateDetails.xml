@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension version="3.1" type="template" client="site" method="upgrade">
+        <name>adonjeschua</name>
+        <creationDate>29 November 2014</creationDate>
+        <author>Benjamin Schnabel</author>
+        <authorEmail>Benjamin-777@gmx.de</authorEmail>
+        <authorUrl>http://www.benjaminschnabel.de</authorUrl>
+        <copyright>(C) Benjamin Schnabel, 2014</copyright>
+        <license>Proprietary, EULA owned by Adon Jeschua Messianic Congration Stuttgart</license>
+        <version>1.2.0</version>
+        <description>TPL_AJ_XML_DESC</description>
+        <updateservers>
+            <server type="template" priority="1" name="Adon Jeschua Template">https://bitbucket.org/bsesic/adon-jeschua-template/raw/a8b8097887b02d862ee4df6aceb2d510c015f527/update.xml</server>
+            <server type="template" priority="2" name="Adon Jeschua Template">https://github.com/bsesic/Adonjeschua-Template/blob/master/update.xml</server>
+        </updateservers>
+
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <filename>template_thumbnail.png</filename>
+                <filename>template_preview.png</filename>
+                <filename>favicon.ico</filename>
+                <filename>favicon.png</filename>
+                <filename>error.php</filename>
+                <filename>favicon.ico</filename>
+                <filename>favicon.png</filename>
+                <filename>component.php</filename>
+            	<folder>images</folder>
+            	<folder>language</folder>
+            	<folder>css</folder>
+            	<folder>html</folder>
+            	<folder>fonts</folder>
+            	<folder>js</folder>
+        </files>
+
+        <positions>
+                <position>message</position>
+            	<position>termine</position>
+                <position>hinweise</position>
+                <position>extras</position>
+                <position>mainmenu</position>
+				<position>language</position>
+                <position>slider</position>
+				<position>search</position>
+				<position>breadcrumbs</position>
+                <position>right-1</position>
+				<position>right-2</position>
+				<position>right-3</position>
+                <position>right-4</position>
+                <position>right-5</position>
+				<position>teaser-up-1</position>
+                <position>teaser-up-2</position>
+                <position>teaser-up-3</position>
+                <position>teaser-up-4</position>
+				<position>teaser-up-5</position>
+				<position>teaser-down-1</position>
+                <position>teaser-down-2</position>
+                <position>teaser-down-3</position>
+                <position>teaser-down-4</position>
+				<position>teaser-down-5</position>
+                <position>footer</position>
+				<position>debug</position>
+        </positions>
+
+	   <languages folder="language">
+            <language tag="en-GB">en-GB/en-GB.tpl_adonjeschua.ini</language>
+            <language tag="en-GB">en-GB/en-GB.tpl_adonjeschua.sys.ini</language>
+            <language tag="de-DE">de-DE/de-DE.tpl_adonjeschua.ini</language>
+            <language tag="de-DE">de-DE/de-DE.tpl_adonjeschua.sys.ini</language>
+	   </languages>
+
+<config>
+    <fields name="params">
+        <fieldset name="advanced" icon="uk-icon-cogs">
+            <field name="Information" type="note" class="alert alert-info" close="true"
+                label="TPL_AJ_INFO_LABEL"
+                description="TPL_AJ_INFO_DESC" />
+
+            <field name="authorCopyright" class="glyphicon glyphicon-copyright-mark" type="radio" default="0"
+                label="TPL_AJ_COPYRIGHT_LABEL"
+                description="TPL_AJ_COPYRIGHT_DESC" >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+            <field name="debugOutput" class="glyphicon glyphicon-dashboard" type="radio" default="0"
+                    label="TPL_AJ_DEBUG_LABEL"
+                    description="TPL_AJ_DEBUG_DESC" >
+                        <option value="1">JYES</option>
+                        <option value="0">JNO</option>
+                </field>
+
+            <field name="logoUrl" class="glyphicon glyphicon-picture" type="media" default=""
+                label="TPL_AJ_LOGO_LABEL"
+                description="TPL_AJ_LOGO_DESC" />
+            
+            <field name="useResponsiveness" class="" type="radio" default="1"
+                label="TPL_AJ_RESPONSIVE_LABEL"
+                description="TPL_AJ_RESPONSIVE_DESC">
+ 	              <option value="0">Don't use</option>
+ 	              <option value="1">Use</option>
+            </field>
+
+            <field name="useBoostrap" class="glyphicon glyphicon-scale" type="radio" default="1"
+                   label="TPL_AJ_BOOTSTRAP_LABEL"
+                   description="TPL_AJ_BOOTSTRAP_DESC" >
+                <option value="0">Don't use</option>
+                <option value="1">Use</option>
+            </field>
+
+            <field name="useJQuery" class="glyphicon glyphicon-scale" type="radio" default="1"
+                   label="TPL_AJ_JQuery_LABEL"
+                   description="TPL_AJ_JQuery_DESC" >
+                <option value="0">Don't use</option>
+                <option value="1">Use</option>
+            </field>
+
+            <field name="googleAnalytics" class="glyphicon glyphicon-scale" type="textarea" default=""
+                label="TPL_AJ_GOOGLE_LABEL"
+                description="TPL_AJ_GOOGLE_DESC"
+                filter="raw" />
+	       
+           <field name="useCompression" class="glyphicon glyphicon-compressed" type="radio" default="1"
+            label="TPL_AJ_COMPRESSION_LABEL"
+            description="TPL_AJ_COMPRESSION_DESC" >
+ 	          <option value="0">Don't use</option>
+ 	          <option value="1">Use</option>
+	       </field>
+
+            <field name="useCDN" class="glyphicon glyphicon-compressed" type="radio" default="1"
+                   label="TPL_AJ_CDN_LABEL"
+                   description="TPL_AJ_CDN_DESC" >
+                <option value="0">Don't use</option>
+                <option value="1">Use</option>
+            </field>
+
+           <field name="googleFont"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="1"
+                    label="TPL_AJ_FONT_LABEL"
+                    description="TPL_AJ_FONT_DESC" >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+ 
+                <field name="googleFontName" class="glyphicon glyphicon-text-size" type="text" default="Open+Sans"
+                    label="TPL_AJ_FONT_NAME_LABEL"
+                    description="TPL_AJ_FONT_NAME_DESC" />
+                </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="localhost">
+    <serverData>
+      <paths name="localhost">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/adonjeschua" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tmp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="$PROJECT_DIR$/../adonjeschua" web="/adonjeschua" />
+            <mapping deploy="adonjeschua" local="$PROJECT_DIR$" web="/adonjeschua" />
+            <mapping local="$PROJECT_DIR$/../mod_bootstrapmenu" web="/adonjeschua" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="www.arche-tuebingen.de">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
