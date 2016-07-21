@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" serverName="localhost">
+=======
+  <component name="PublishConfigData">
+>>>>>>> refs/remotes/origin/master
     <serverData>
       <paths name="localhost">
         <serverdata>
           <mappings>
+<<<<<<< HEAD
             <mapping local="$PROJECT_DIR$" web="/adonjeschua" />
+=======
+            <mapping local="$PROJECT_DIR$" web="/" />
+>>>>>>> refs/remotes/origin/master
           </mappings>
         </serverdata>
       </paths>
       <paths name="tmp">
         <serverdata>
           <mappings>
+<<<<<<< HEAD
             <mapping deploy="" local="$PROJECT_DIR$/../adonjeschua" web="/adonjeschua" />
             <mapping deploy="adonjeschua" local="$PROJECT_DIR$" web="/adonjeschua" />
             <mapping local="$PROJECT_DIR$/../mod_bootstrapmenu" web="/adonjeschua" />
           </mappings>
+=======
+            <mapping local="$PROJECT_DIR$" web="/adonjeschua" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/tests" />
+          </excludedPaths>
+>>>>>>> refs/remotes/origin/master
         </serverdata>
       </paths>
       <paths name="www.arche-tuebingen.de">

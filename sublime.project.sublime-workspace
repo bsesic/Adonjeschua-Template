@@ -1,0 +1,857 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fff",
+				"font-family-sans-serif"
+			],
+			[
+				"deko",
+				"dekor1"
+			],
+			[
+				"goo",
+				"googleAnalytics"
+			],
+			[
+				"logo",
+				"logoUrl"
+			],
+			[
+				"err",
+				"error_reporting"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"main",
+				"mainmenu"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"text-",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 9963,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layout.php",
+			"settings":
+			{
+				"buffer_size": 8515,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/overrides.css",
+			"settings":
+			{
+				"buffer_size": 7770,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 27151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/less/navbar.less",
+			"settings":
+			{
+				"buffer_size": 14649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/editor.css",
+			"settings":
+			{
+				"buffer_size": 1500,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 142955,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_bootstrapnav/default.php",
+			"settings":
+			{
+				"buffer_size": 5238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_search/default.php",
+			"settings":
+			{
+				"buffer_size": 1676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/mod_jevents_latest/adonjeschua/latest.php",
+			"settings":
+			{
+				"buffer_size": 4699,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mod_jevents_table_test.php",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Windows",
+				"name": "<html>"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"emme",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"nn",
+				"Notes: Inbox"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Benni/Websites/adonjeschua_template/src/less/breadcrumbs.less",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/helper.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/default.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/README.md",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins/alerts.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/variables.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/theme.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/css/bootstrap.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/css/mixins/pagination.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/mod_breadcrumbs.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/mod_breadcrumbs.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_breadcrumbs/tmpl/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/templateDetails.xml",
+		"/C/Users/Benni/Websites/K2_v2.6.9/k2.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default.php",
+		"/C/Users/Benni/Websites/adonjeschua/configuration.php",
+		"/C/Users/Benni/Websites/adonjeschua/logs/error.php",
+		"/C/Users/Benni/Websites/adonjeschua/logs/jcontroller.log.php",
+		"/C/Users/Benni/Websites/adonjeschua/.htaccess",
+		"/C/Users/Benni/Websites/adonjeschua/index.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_component.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_heading.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_url.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/default_separator.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/helper.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/mod_menu.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/mod_menu.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/css/bootstrap.less",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/LESS/LESS.sublime-settings",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/less/variables.less",
+		"/C/Users/Benni/Websites/adonjeschua_template/bootstrap-3.3.2/less/variables.less",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/less/bootstrap.less",
+		"/C/Users/Benni/Websites/adonjeschua_template/src/docs/customize.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/menu.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/css/overrides.css",
+		"/C/Users/Benni/Websites/adonjeschua/templates/system/css/editor.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/css/editor.css",
+		"/C/Users/Benni/Websites/adonjeschua_template/adonjeschua.TODO",
+		"/C/Users/Benni/Websites/adonjeschua_template/js/mainmenu.js",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/config.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/layout.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/index.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/bootstrap/fonts/glyphicons-halflings-regular.eot",
+		"/C/Users/Benni/Websites/adonjeschua_template/css/bootstrap-min.css",
+		"/C/Users/Benni/Downloads/magic-bootstrap-min.css",
+		"/C/Users/Benni/Downloads/magic-bootstrap.css",
+		"/C/Users/Benni/Downloads/magic-bootstrap.less",
+		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/css/template.css",
+		"/C/Users/Benni/Websites/adonjeschua/templates/oziofullscreen/css/template.css",
+		"/C/Users/Benni/Websites/adonjeschua/templates/system/css/error.css",
+		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/templateDetails.xml",
+		"/C/Users/Benni/.emulationstation/gamelists/n64/gamelist.xml",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/tmpl/default.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/html/mod_menu/tmpl/default_component.php",
+		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/language/en-GB/en-GB.tpl_adonjeschua.sys.ini",
+		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/language/en-GB/en-GB.tpl_adonjeschua.ini",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/en-GB/en-GB.tpl_adonjeschua.sys.ini",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/User/Default (OSX).sublime-mousemap",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/de-DE/de-DE.tpl_adonjeschua.sys.ini",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/en-GB/en-GB.tpl_adonjeschua.ini",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/de-DE/de-DE.tpl_adonjeschua.ini",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/templateDetails.xml",
+		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/index.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/component.php",
+		"/C/Users/Benni/Websites/adonjeschua/templates/gantry/templateDetails.xml",
+		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/templateDetails.xml",
+		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/index.html",
+		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/component.php",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/de-DE.tpl_adonjeschua.sys.ini",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/en-GB/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/de-DE/index.html",
+		"/C/Users/Benni/Websites/adonjeschua/templates/beez3/language/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/index.html",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/ru-RU.tpl_adonjeschua.sys.ini",
+		"/C/Users/Benni/Websites/adonjeschua_template/language/en-GB.tpl_adonjeschua.sys.ini",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/warp/systems/joomla/config/elements/config.php",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/warp/config/layouts/config.php",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/apple_touch_icon.png",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/warp/systems/joomla/config.php",
+		"/C/Users/Benni/Websites/yoo_frequency/templates/yoo_frequency/warp/systems/joomla/config/elements/warp-ajax.php",
+		"/C/Users/Benni/Websites/adonjeschua/templates/yoo_master2/templateDetails.xml",
+		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/language/de-DE.tpl_adonjeschua.ini",
+		"/C/Users/Benni/Websites/adonjeschua/templates/index.html",
+		"/C/Users/Benni/Websites/adonjeschua/language/en-GB/en-GB.com_users.ini",
+		"/C/Users/Benni/Websites/adonjeschua/language/en-GB/en-GB.com_config.ini",
+		"/C/Users/Benni/Desktop/index.php",
+		"/C/Users/Benni/Documents/adon-jeschua-template/index.php",
+		"/C/Users/Benni/Desktop/bsesic-adon-jeschua-template-a8b8097887b0/index.php",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/User/Default (Linux).sublime-mousemap",
+		"/C/Users/Benni/Websites/adonjeschua/templates/adonjeschua/index.php",
+		"/C/Users/Benni/Programmierung/adonjeschua.sublime-project",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/beez3/templateDetails.xml",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua_template/templateDetails.xml",
+		"/C/Program Files (x86)/Ampps/www/Backups/adonjeschua - Kopie/templates/adonjeschua/index.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/configuration.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/beez3/language/en-GB/en-GB.tpl_beez3.ini",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/gantry/templateDetails.xml",
+		"/C/Users/Benja_000/AppData/Local/Temp/Rar$DIa0.027/templateDetails.xml",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/templateDetails.xml",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/index.php",
+		"/C/Program Files (x86)/Ampps/www/ivrit/templates/gk_events/templateDetails.xml",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/css/overrides.css",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_contact/contact/default_profile.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_contact/contact/default_address.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_contact/contact/default.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/cssmenu/styles.css",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/bootstrap/css/bootstrap-theme.css",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/template_thumbnail.jpg",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_menu/tmpl/default_url.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_menu/tmpl/default_separator.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_menu/tmpl/default_heading.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_menu/tmpl/default_component.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_menu/tmpl/default.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/languages/de-DE.tpl_adonjeschua.ini",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/languages/ru-RU.tpl_adonjeschua.ini",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/languages/en-GB.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/component.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/components.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/assets/style.css",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/bootstrap/css/bootstrap.css",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/tmpl/index.html",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/tmpl/default.php",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/assets/powertools-1.2.0.js",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/assets/slider.js",
+		"/C/Program Files (x86)/Ampps/www/adonjeschua/templates/adonjeschua/html/mod_djimageslider/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Benni\\Websites\\adonjeschua_template\\src\\css\\mixins"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"search",
+			"active",
+			"container",
+			"bread",
+			"Modules",
+			"navbar-colla",
+			"navbar",
+			"navb",
+			"@dekor1",
+			"#41291c",
+			"#00aad2",
+			"#b8cc00",
+			"#bfa980",
+			"#ded6ad",
+			"#d20031",
+			"#222",
+			"#ded6ad",
+			"ded6ad",
+			"12",
+			"grid",
+			"radius",
+			"@gridcolumns",
+			"langu",
+			"top",
+			"/jdoc",
+			"jquery",
+			"slider",
+			"extra",
+			"footer",
+			"mainmenu",
+			"-->",
+			"ö",
+			"ü",
+			"TPL_BEEZ3_FIELD_WRAPPERSMALL_LABEL",
+			"email",
+			"ea",
+			"logo",
+			"col-",
+			"col ",
+			"col",
+			"padding",
+			"a ",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@akzent3",
+			"@akzent2",
+			"@akzent1",
+			"@hinweise",
+			"@texte",
+			"15"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 9963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9506,
+								9506
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layout.php",
+					"settings":
+					{
+						"buffer_size": 8515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								886,
+								1471
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/overrides.css",
+					"settings":
+					{
+						"buffer_size": 7770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3068,
+								3068
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1784.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/less/variables.less",
+					"settings":
+					{
+						"buffer_size": 27151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25016,
+								25016
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10543.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/less/navbar.less",
+					"settings":
+					{
+						"buffer_size": 14649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2727,
+								2727
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1234.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/editor.css",
+					"settings":
+					{
+						"buffer_size": 1500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1368,
+								1368
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 192.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 142955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 35994.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "html/mod_bootstrapnav/default.php",
+					"settings":
+					{
+						"buffer_size": 5238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "html/mod_search/default.php",
+					"settings":
+					{
+						"buffer_size": 1676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1340
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "html/mod_jevents_latest/adonjeschua/latest.php",
+					"settings":
+					{
+						"buffer_size": 4699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 214.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "mod_jevents_table_test.php",
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<html>",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.97084548105,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true
+}

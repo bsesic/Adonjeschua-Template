@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
  <update>
+<<<<<<< HEAD
     <name>adonjeschua</name>
+=======
+    <name>Adon Jeschuah Template</name>
+>>>>>>> refs/remotes/origin/master
     <description>Update für Adon Jeschuah Template.</description>
     <element>adon-jeschua-template</element>
     <type>template</type>
@@ -19,7 +23,11 @@
     <targetplatform name="joomla" version="3.1"/>
  </update>
  <update>
+<<<<<<< HEAD
     <name>adonjeschua</name>
+=======
+    <name>Adon Jeschuah Template</name>
+>>>>>>> refs/remotes/origin/master
     <description>Update für Adon Jeschuah Template.</description>
     <element>adon-jeschua-template</element>
     <type>template</type>

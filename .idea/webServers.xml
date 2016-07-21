@@ -2,7 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
+<<<<<<< HEAD
       <webServer id="87f95f82-2ee2-4ec3-ad1a-8c8635be113d" name="tmp" url="http://localhost/adonjeschua">
+=======
+      <webServer id="6dea748b-22fc-488e-8737-468022d4f746" name="tmp" url="http://localhost">
+>>>>>>> refs/remotes/origin/master
         <fileTransfer mountedRoot="C:\Users\Benni\Websites\adonjeschua\tmp" accessType="MOUNT" />
       </webServer>
     </option>
