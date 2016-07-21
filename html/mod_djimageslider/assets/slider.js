@@ -1,5 +1,5 @@
 /**
- * @version $Id: slider_uncompressed.js 11 2013-06-21 11:07:50Z szymon $
+ * @version $Id: slider.js 12 2014-01-24 10:20:16Z szymon $
  * @package DJ-ImageSlider
  * @subpackage DJ-ImageSlider Component
  * @copyright Copyright (C) 2012 DJ-Extensions.com, All rights reserved.

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Id: helper.php 5 2013-01-11 10:22:28Z szymon $
+ * @version $Id: helper.php 12 2014-01-24 10:20:16Z szymon $
  * @package DJ-ImageSlider
  * @subpackage DJ-ImageSlider Component
  * @copyright Copyright (C) 2012 DJ-Extensions.com, All rights reserved.
@@ -157,11 +157,14 @@ class modDJImageSliderHelper
 		}
 		
 		$desc = strip_tags($slide->description);
-		if($limit && $limit < strlen($desc)) {
-			$limit = strpos($desc, ' ', $limit);
+		
+		if($limit && $limit - strlen($desc) < 0) {
+			// don't cut in the middle of the word unless it's longer than 20 chars
+			if($pos = strpos($desc, ' ', $limit)) $limit = ($pos - $limit > 20) ? $limit : $pos;
+			// cut text and add dots
 			$desc = substr($desc, 0, $limit);
-			if(preg_match('/[A-Za-z0-9]$/', $desc)) $desc.=' ...';
-			$desc = nl2br($desc);
+			if(preg_match('/[a-zA-Z0-9]$/', $desc)) $desc.='&hellip;';
+			$desc = '<p>'.nl2br($desc).'</p>';
 		} else { // no limit or limit greater than description
 			$desc = $slide->description;
 		}
@@ -169,6 +172,26 @@ class modDJImageSliderHelper
 		return $desc;
 	}
 
+	private function truncateDescription($text, $limit) {
+	
+		$text = preg_replace('/{djmedia\s*(\d*)}/i', '', $text);
+	
+		$desc = strip_tags($text);
+	
+		if($limit - strlen($desc) < 0) {
+			// don't cut in the middle of the word unless it's longer than 20 chars
+			if($pos = strpos($desc, ' ', $limit)) $limit = ($pos - $limit > 20) ? $limit : $pos;
+			// cut text and add dots
+			$desc = substr($desc, 0, $limit);
+			if(preg_match('/[a-zA-Z0-9]$/', $desc)) $desc.='&hellip;';
+			$desc = '<p>'.nl2br($desc).'</p>';
+		} else { // no limit or limit greater than description
+			$desc = $text;
+		}
+	
+		return $desc;
+	}
+	
 	static function getAnimationOptions(&$params) {
 		$effect = $params->get('effect');
 		$effect_type = $params->get('effect_type');
@@ -302,11 +325,11 @@ class modDJImageSliderHelper
 		$css = '
 		/* Styles for DJ Image Slider with module id '.$mid.' */
 		#djslider-loader'.$mid.' {
-			margin: 0 auto;
+			margin: 0;
 			position: relative;
 		}
 		#djslider'.$mid.' {
-			margin: 0 auto;
+			margin: 0;
 			position: relative;
 			height: '.$slider_height.'px; 
 			width: '.$slider_width.'px;

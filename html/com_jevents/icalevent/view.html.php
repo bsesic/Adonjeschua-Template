@@ -4,7 +4,7 @@
  *
  * @version     $Id: view.html.php 2979 2011-11-10 13:50:14Z geraintedwards $
  * @package     JEvents
- * @copyright   Copyright (C) 2008-2009 GWE Systems Ltd
+ * @copyright   Copyright (C) 2008-2015 GWE Systems Ltd
  * @license     GNU/GPLv2, see http://www.gnu.org/licenses/gpl-2.0.html
  * @link        http://www.jevents.net
  */
@@ -71,16 +71,16 @@ class ICalEventViewIcalevent extends AdminIcaleventViewIcalevent
 			{
 				
 				if (JEVHelper::isEventEditor())
-					$this->toolbarConfirmButton("icalevent.apply", JText::_("save_copy_warning"), 'apply', 'apply', 'SAVE', false);
-				//$this->toolbarConfirmButton("icalevent.savenew", JText::_("save_copy_warning"), 'save', 'save', 'JEV_Save_New', false);
-                                $this->toolbarConfirmButton("icalevent.save", JText::_("save_copy_warning"), 'save', 'save', 'JEV_SAVE_CLOSE', false);
+					$this->toolbarConfirmButton("icalevent.apply", JText::_("JEV_SAVE_COPY_WARNING"), 'apply', 'apply', 'JEV_SAVE', false);
+				//$this->toolbarConfirmButton("icalevent.savenew", JText::_("JEV_SAVE_COPY_WARNING"), 'save', 'save', 'JEV_SAVE_NEW', false);
+                                $this->toolbarConfirmButton("icalevent.save", JText::_("JEV_SAVE_COPY_WARNING"), 'save', 'save', 'JEV_SAVE_CLOSE', false);
 			}
 			else
 			{
                             if (JEVHelper::isEventEditor())
-					$this->toolbarConfirmButton("icalevent.apply", JText::_("save_icalevent_warning"), 'apply', 'apply', 'SAVE', false);
-				//$this->toolbarConfirmButton("icalevent.savenew", JText::_("save_icalevent_warning"), 'save', 'save', 'JEV_Save_New', false);
-                            $this->toolbarConfirmButton("icalevent.save", JText::_("save_icalevent_warning"), 'save', 'save', 'JEV_SAVE_CLOSE', false);
+					$this->toolbarConfirmButton("icalevent.apply", JText::_("JEV_SAVE_ICALEVENT_WARNING"), 'apply', 'apply', 'JEV_SAVE', false);
+				//$this->toolbarConfirmButton("icalevent.savenew", JText::_("JEV_SAVE_ICALEVENT_WARNING"), 'save', 'save', 'JEV_SAVE_NEW', false);
+                            $this->toolbarConfirmButton("icalevent.save", JText::_("JEV_SAVE_ICALEVENT_WARNING"), 'save', 'save', 'JEV_SAVE_CLOSE', false);
 				
 			}
 		}
@@ -88,12 +88,13 @@ class ICalEventViewIcalevent extends AdminIcaleventViewIcalevent
 		{
 			
 			if (JEVHelper::isEventEditor())
-				$this->toolbarButton("icalevent.apply", 'apply', 'apply', 'SAVE', false);
+				$this->toolbarButton("icalevent.apply", 'apply', 'apply', 'JEV_SAVE', false);
 			//JToolBarHelper::save('icalevent.savenew', "JEV_Save_New");
                         $this->toolbarButton("icalevent.save", 'save', 'save', 'JEV_SAVE_CLOSE', false);
 		}
 
 		$params = JComponentHelper::getParams(JEV_COM_COMPONENT);
+                $evedrd = $params->get("editreturnto", "day.listevents");
 		if ($params->get("editpopup", 0))
 		{
 			$document->addStyleDeclaration("div#toolbar-box{margin:10px 10px 0px 10px;} div#jevents {margin:0px 10px 10px 10px;} ");
@@ -108,11 +109,9 @@ class ICalEventViewIcalevent extends AdminIcaleventViewIcalevent
 			}
 			else
 			{
-				$this->toolbarButton("day.listevents", 'cancel', 'cancel', 'Cancel', false);
+				$this->toolbarButton($evedrd, 'cancel', 'cancel', 'Cancel', false);
 			}
 		}
-
-		JHTML::_('behavior.tooltip');
 
 		// I pass in the rp_id so that I can return to the repeat I was viewing before editing
 		$this->assign("rp_id", JRequest::getInt("rp_id", 0));
@@ -121,13 +120,14 @@ class ICalEventViewIcalevent extends AdminIcaleventViewIcalevent
 
 		$this->_adminStart();
 
-		if (JevJoomlaVersion::isCompatible("3.0"))
+		if (JevJoomlaVersion::isCompatible("3.0")  )
 		{
+			// load Joomla javascript classes
+			JHTML::_('behavior.core');
 			$this->setLayout("edit");
 		}
-		else
-		{
-			$this->setLayout("edit16");
+		else  {
+			$this->setLayout("editjq");
 		}
 
 		JEVHelper::componentStylesheet($this, "editextra.css");		

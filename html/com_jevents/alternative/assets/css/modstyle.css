@@ -5,7 +5,7 @@
 {
 	border: 1px solid #222222;
 	text-align: center;
-	font-family: Arial;
+	
 	font-size: 12px;
 	font-style: normal;
 	text-decoration: none;
@@ -110,10 +110,26 @@ a.mod_events_link:hover
 	text-decoration: none;
 }
 
-td.mod_events_latest_first, td.mod_events_latest 
+td.mod_events_latest_first, td.mod_events_latest, td.mod_events_latest_date, td.mod_events_latest_content
 {
 	background-color:#ffffff;
 	border-style:solid;
 	border-width:0px 0px 1px 0px;
 	padding:0px 0px 2px 2px;
+	height: 30px;
+	border-color: #bfa980;
+	vertical-align: top;
+}
+
+div.mod_events_latest_callink {
+	text-align: left;
+}
+
+table.mod_events_latest_table {
+	border-style: solid;
+	border-color: #bfa980;
+	border-width: 1px 0 0 0;
+}
+td.mod_events_latest_content a{
+	color: #000000;
 }

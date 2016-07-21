@@ -8,6 +8,14 @@
         <authorUrl>http://www.benjaminschnabel.de</authorUrl>
         <copyright>(C) Benjamin Schnabel, 2014</copyright>
         <license>Proprietary, EULA owned by Adon Jeschua Messianic Congration Stuttgart</license>
+<<<<<<< HEAD
+        <version>1.2.0</version>
+        <description>TPL_AJ_XML_DESC</description>
+        <updateservers>
+            <server type="template" priority="1" name="Adon Jeschua Template">https://bitbucket.org/bsesic/adon-jeschua-template/raw/a8b8097887b02d862ee4df6aceb2d510c015f527/update.xml</server>
+            <server type="template" priority="2" name="Adon Jeschua Template">https://github.com/bsesic/Adonjeschua-Template/blob/master/update.xml</server>
+        </updateservers>
+=======
         <version>1.0.0</version>
         <description>TPL_AJ_XML_DESC</description>
         <updateservers>
@@ -15,6 +23,7 @@
         <server type="template" priority="2" name="Adon Jeschua Template">https://github.com/bsesic/Adonjeschua-Template/blob/master/update.xml</server>
         <server type="template" priority="3" name="Adon Jeschua Template">http://benjaminschnabel.de/adonjeschuatemplate/update.xml</server>
     </updateservers>
+>>>>>>> refs/remotes/origin/master
 
         <files>
                 <filename>index.php</filename>
@@ -27,14 +36,20 @@
                 <filename>favicon.ico</filename>
                 <filename>favicon.png</filename>
                 <filename>component.php</filename>
+<<<<<<< HEAD
+=======
             	<folder>bootstrap</folder>
+>>>>>>> refs/remotes/origin/master
             	<folder>images</folder>
             	<folder>language</folder>
             	<folder>css</folder>
             	<folder>html</folder>
             	<folder>fonts</folder>
             	<folder>js</folder>
+<<<<<<< HEAD
+=======
                 <folder>src</folder>
+>>>>>>> refs/remotes/origin/master
         </files>
 
         <positions>
@@ -104,10 +119,32 @@
  	              <option value="0">Don't use</option>
  	              <option value="1">Use</option>
             </field>
+<<<<<<< HEAD
+
+            <field name="useBoostrap" class="glyphicon glyphicon-scale" type="radio" default="1"
+                   label="TPL_AJ_BOOTSTRAP_LABEL"
+                   description="TPL_AJ_BOOTSTRAP_DESC" >
+                <option value="0">Don't use</option>
+                <option value="1">Use</option>
+            </field>
+
+            <field name="useJQuery" class="glyphicon glyphicon-scale" type="radio" default="1"
+                   label="TPL_AJ_JQuery_LABEL"
+                   description="TPL_AJ_JQuery_DESC" >
+                <option value="0">Don't use</option>
+                <option value="1">Use</option>
+            </field>
+
+            <field name="googleAnalytics" class="glyphicon glyphicon-scale" type="textarea" default=""
+                label="TPL_AJ_GOOGLE_LABEL"
+                description="TPL_AJ_GOOGLE_DESC"
+                filter="raw" />
+=======
             <field name="googleAnalytics" class="glyphicon glyphicon-scale" type="textarea" default=""
                 label="TPL_AJ_GOOGLE_LABEL"
                 description="TPL_AJ_GOOGLE_DESC"
                 filter="string" />        
+>>>>>>> refs/remotes/origin/master
 	       
            <field name="useCompression" class="glyphicon glyphicon-compressed" type="radio" default="1"
             label="TPL_AJ_COMPRESSION_LABEL"
@@ -115,7 +152,18 @@
  	          <option value="0">Don't use</option>
  	          <option value="1">Use</option>
 	       </field>
+<<<<<<< HEAD
+
+            <field name="useCDN" class="glyphicon glyphicon-compressed" type="radio" default="1"
+                   label="TPL_AJ_CDN_LABEL"
+                   description="TPL_AJ_CDN_DESC" >
+                <option value="0">Don't use</option>
+                <option value="1">Use</option>
+            </field>
+
+=======
            
+>>>>>>> refs/remotes/origin/master
            <field name="googleFont"
                     type="radio"
                     class="btn-group btn-group-yesno"

@@ -1,6 +1,6 @@
 <?php
 /**
- * @version 2.0.0.stable
+ * @version $Id: default.php 21 2015-01-14 18:40:46Z szymon $
  * @package DJ-ImageSlider
  * @subpackage DJ-ImageSlider Component
  * @copyright Copyright (C) 2012 DJ-Extensions.com, All rights reserved.
@@ -34,16 +34,24 @@ defined('_JEXEC') or die ('Restricted access'); ?>
         	<ul id="slider<?php echo $mid; ?>">
           		<?php foreach ($slides as $slide) { ?>
           			<li>
-          				<?php if($slide->image) { ?>
-	            			<?php if (($slide->link && $params->get('link_image',1)==1) || $params->get('link_image',1)==2) { ?>
-								<a <?php echo ($params->get('link_image',1)==2 ? 'class="djmodal"' : ''); ?> href="<?php echo ($params->get('link_image',1)==2 ? $slide->image : $slide->link); ?>" target="<?php echo $slide->target; ?>">
+          				<?php if($slide->image) { 
+          					$action = $params->get('link_image',1);
+          					$attr = '';
+          					if($action==2) $attr = 'class="slider-modal"';
+          					else if($action == 3) {
+          						$attr = 'rel="lightbox-slider'.$mid.'"';
+          						if($params->get('show_desc')) $attr.= ' title="'.(!empty($slide->title) ? htmlspecialchars('<h3>'.$slide->title.'</h3> ') : '').htmlspecialchars(strip_tags($slide->description,"<p><a><b><strong><em><i><u>")).'"'; 
+          					}								
+          					?>
+	            			<?php if (($slide->link && $action==1) || $action>1) { ?>
+								<a <?php echo $attr; ?> href="<?php echo ($action>1 ? $slide->image : $slide->link); ?>" target="<?php echo $slide->target; ?>">
 							<?php } ?>
 								<img src="<?php echo $slide->image; ?>" alt="<?php echo $slide->alt; ?>" />
-							<?php if (($slide->link && $params->get('link_image',1)==1) || $params->get('link_image',1)==2) { ?>
+							<?php if (($slide->link && $action==1) || $action>1) { ?>
 								</a>
 							<?php } ?>
 						<?php } ?>
-						<?php if($params->get('slider_source') && ($params->get('show_title') || ($params->get('show_desc') && !empty($slide->description)))) { ?>
+						<?php if($params->get('slider_source') && ($params->get('show_title') || ($params->get('show_desc') && !empty($slide->description) || ($params->get('show_readmore') && $slide->link)))) { ?>
 						<!-- Slide description area: START -->
 						<div class="slide-desc">
 						  <div class="slide-desc-in">	

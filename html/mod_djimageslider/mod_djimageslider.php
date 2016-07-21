@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Id: mod_djimageslider.php 11 2013-06-21 11:07:50Z szymon $
+ * @version $Id: mod_djimageslider.php 20 2014-04-14 15:57:45Z szymon $
  * @package DJ-ImageSlider
  * @subpackage DJ-ImageSlider Component
  * @copyright Copyright (C) 2012 DJ-Extensions.com, All rights reserved.
@@ -55,8 +55,14 @@ if($params->get('slider_source')==1) {
 
 $document = JFactory::getDocument();
 JHTML::_('behavior.framework',true);
-if($params->get('link_image',1)==2) {
-	JHTML::_('behavior.modal','a.djmodal');
+switch($params->get('link_image',1)) {
+	case 2: { JHTML::_('behavior.modal','a.slider-modal'); break; }
+	case 3: {
+		$js = JURI::root(true).'/modules/mod_djimageslider/assets/slimbox/js/slimbox.js';
+		$css = JURI::root(true).'/modules/mod_djimageslider/assets/slimbox/css/slimbox.css';		
+		$document->addStyleSheet($css);
+		$document->addScript($js);
+	}
 }
 $document->addScript('modules/mod_djimageslider/assets/powertools-1.2.0.js');
 $document->addScript('modules/mod_djimageslider/assets/slider.js');

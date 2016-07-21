@@ -9,19 +9,57 @@ body {
 	src: url(../fonts/segoeui.ttf);
 	font-weight: normal;
 }
+h1:first-child {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+/*Djimageslider fix */
+.slideshowlite ul, .slideshowlite ol {
+    left: 0px !important;
+ }
+
+.padding-left-off {
+	padding-left: 0px !important;
+}
+
+.padding-right-off {
+	padding-right: 0px !important;
+}
+
 /*Main Menu*/
 .mainmenu {
 	margin-bottom: 0px;
 	height: 28px;
 	padding-left: 0px;
-	margin-left: 0px;+
+	margin-left: 0px;
 }
 
 .mainmenu > .navbar {
 	text-transform: uppercase;
 	/*color: #41291C;*/
 	font-size: 14px,
+	padding-left: 0px;
 }
+.nav {
+	z-index: 1;
+}
+.navbar div {
+	padding-left: 0px;
+	}
+.navbar div .collapse {
+		padding-left: 0px;
+}
+
+.nav .navbar-nav {
+		padding-left: 0px;
+}
+.nav .navbar ul li {
+		padding-left: 0px;
+}
+.nav > li > a {
+	padding-left: 0px;
+}
+
 /*.navbar ul {
     margin: 0;
     padding: 0;
@@ -120,6 +158,11 @@ hr {
 #up {
 	margin-top: 0px;
 	margin-bottom: 10px;
+	width: 98%;
+}
+
+#down {
+	width: 99.2%;
 }
 
 .form-control{
@@ -131,6 +174,11 @@ hr {
 }
 
 /* Language Menu */
+.mod-languages {
+    float: right;
+    padding-right: 0;
+}
+
 .language{
 		margin-top: -7px;
 		float:right;
@@ -296,9 +344,11 @@ li {
 /* Search Box */
 .search {
 	border-radius: 0px;
-	position: relative;
-	margin-right: 0px;
+	/*position: relative;*/
+	margin-right: 19px;
+	float: right; 
 }
+
 /* Search Input Box */
 .inputbox.search-query {
 	border-radius: 0px;
@@ -319,10 +369,15 @@ li {
 	background-color: #B8CC00;
 	line-height: 0px;
 	position:absolute;
-	float:left;
+	float:right;
 	display:inline;
 	color: #FFF;
 	height: 22px;
+}
+
+.language ul li:last-child {
+    margin-right: 0;
+    padding-right: 8px;
 }
 
 .white {
@@ -414,11 +469,11 @@ h4 {
 	color: #B8CC00;
 }
 
-a:link, a:visited {
+/*a:link, a:visited {
 	color: #1B57B1; text-decoration: none;
 	font-weight: normal;
 }
-
+*/
 a:hover {
 	color: #00c;	text-decoration: underline;
 	font-weight: normal;

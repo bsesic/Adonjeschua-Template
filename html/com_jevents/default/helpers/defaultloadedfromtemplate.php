@@ -390,9 +390,23 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 					$blank[] = "";
 					break;
 
+				// deprecated
 				case "{{TOOLTIP}}":
 					$search[] = "{{TOOLTIP}}";
 					$replace[] = "[[TOOLTIP]]";
+					$blank[] = "";
+					break;
+
+				// new version for bootstrap
+				case "{{TOOLTIPTITLE}}":
+					$search[] = "{{TOOLTIPTITLE}}";
+					$replace[] = "[[TOOLTIPTITLE]]";
+					$blank[] = "";
+					break;
+
+				case "{{TOOLTIPCONTENT}}":
+					$search[] = "{{TOOLTIPCONTENT}}";
+					$replace[] = "[[TOOLTIPCONTENT]]";
 					$blank[] = "";
 					break;
 
@@ -477,30 +491,20 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 				case "{{ICALBUTTON}}":
 				case "{{EDITDIALOG}}":
 				case "{{EDITBUTTON}}":
-					static $styledone = false;
-					if (!$styledone)
-					{
-						$document = JFactory::getDocument();
-						$document->addStyleDeclaration("div.jevdialogs {position:relative;margin-top:35px;text-align:left;}\n div.jevdialogs img{float:none!important;margin:0px}");
-						$styledone = true;
-					}
 
 					if ($jevparams->get("showicalicon", 0) && !$jevparams->get("disableicalexport", 0))
 					{
-						JEVHelper::script('view_detail.js', 'components/' . JEV_COM_COMPONENT . "/assets/js/");
 						$cssloaded = true;
 						ob_start();
+						$view->eventIcalButton($event);
 						?>
-						<a href="javascript:void(0)" onclick='clickIcalButton()' title="<?php echo JText::_('JEV_SAVEICAL'); ?>">
-							<img src="<?php echo JURI::root() . 'components/' . JEV_COM_COMPONENT . '/assets/images/jevents_event_sml.png' ?>" name="image"  alt="<?php echo JText::_('JEV_SAVEICAL'); ?>" class="jev_ev_sml nothumb"/>
-						</a>
-						<div class="jevdialogs">
+						<div class="jevdialogs" style="position:relative;">
 						<?php
 						$search[] = "{{ICALDIALOG}}";
 						if ($view)
 						{
 							ob_start();
-							$view->eventIcalDialog($event, $mask);
+							$view->eventIcalDialog($event, $mask, true);
 							$dialog = ob_get_clean();
 							$replace[] = $dialog;
 						}
@@ -527,22 +531,18 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 						$replace[] = "";
 						$blank[] = "";
 					}
-					if ((JEVHelper::canEditEvent($event) || JEVHelper::canPublishEvent($event) || JEVHelper::canDeleteEvent($event)) && !( $mask & MASK_POPUP ))
+					if ((JEVHelper::canEditEvent($event) || JEVHelper::canPublishEvent($event) || JEVHelper::canDeleteEvent($event)) )
 					{
-						JEVHelper::script('view_detail.js', 'components/' . JEV_COM_COMPONENT . "/assets/js/");
-
 						ob_start();
+						$view->eventManagementButton($event);
 						?>
-						<a href="javascript:void(0)" onclick='clickEditButton()' title="<?php echo JText::_('JEV_E_EDIT'); ?>">
-							<?php echo JEVHelper::imagesite('edit.png', JText::_('JEV_E_EDIT')); ?>
-						</a>
 						<div class="jevdialogs">
 						<?php
 						$search[] = "{{EDITDIALOG}}";
 						if ($view)
 						{
 							ob_start();
-							$view->eventManagementDialog($event, $mask);
+							$view->eventManagementDialog($event, $mask, true);
 							$dialog = ob_get_clean();
 							$replace[] = $dialog;
 						}
@@ -892,30 +892,38 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 
                                         case "{{FIRSTREPEAT}}":
                                         case "{{FIRSTREPEATSTART}}":
-                                           static $dofirstrepeat;
-                                           if (!isset($dofirstrepeat))
-                                           {
-                                              $dofirstrepeat = (strpos($template_value, "{{FIRSTREPEAT}}") !== false || strpos($template_value, "{{FIRSTREPEATSTART}}") !== false);
-                                           }
-                                           if ($dofirstrepeat)
-                                           {
-                                              $search[] = "{{FIRSTREPEAT}}";
-                                              $firstrepeat = $event->getFirstRepeat();
-                                              if ($firstrepeat->rp_id() == $event->rp_id())
-                                              {
-                                                 $replace[] = "";
-                                              }
-                                              else
-                                              {
-                                                 $replace[] = "<a class='ev_firstrepeat' href='" . $firstrepeat->viewDetailLink($firstrepeat->yup(), $firstrepeat->mup(), $firstrepeat->dup(), true) . "' title='" . JText::_('JEV_FIRSTREPEAT') . "' >" . JText::_('JEV_FIRSTREPEAT') . "</a>";
-                                              }
-                                              $blank[] = "";
+					static $dofirstrepeat;
+					if (!isset($dofirstrepeat))
+					{
+						$dofirstrepeat = (strpos($template_value, "{{FIRSTREPEAT}}") !== false || strpos($template_value, "{{FIRSTREPEATSTART}}") !== false);
+					}
+					if ($dofirstrepeat)
+					{
+						$search[] = "{{FIRSTREPEAT}}";
+						$firstrepeat = $event->getFirstRepeat();
+						if ($firstrepeat->rp_id() == $event->rp_id())
+						{
+							$replace[] = "";
+						}
+						else
+						{
+							$replace[] = "<a class='ev_firstrepeat' href='" . $firstrepeat->viewDetailLink($firstrepeat->yup(), $firstrepeat->mup(), $firstrepeat->dup(), true) . "' title='" . JText::_('JEV_FIRSTREPEAT') . "' >" . JText::_('JEV_FIRSTREPEAT') . "</a>";
+						}
+						$blank[] = "";
 
-                                              $search[] = "{{FIRSTREPEATSTART}}";
-                                              $replace[] = JEventsHTML::getDateFormat($firstrepeat->yup(), $firstrepeat->mup(), $firstrepeat->dup(), 0);
-                                              $blank[] = "";
-                                           }
-                                           break;
+						$search[] = "{{FIRSTREPEATSTART}}";
+						if ($firstrepeat->rp_id() == $event->rp_id())
+						{
+							$replace[] = "";
+						}
+						else
+						{
+							$replace[] = JEventsHTML::getDateFormat($firstrepeat->yup(), $firstrepeat->mup(), $firstrepeat->dup(), 0);
+							$rawreplace[] = $firstrepeat->yup() . "-" . $firstrepeat->mup() . "-" . $firstrepeat->dup() . " " . $firstrepeat->hup() . ":" . $firstrepeat->minup() . ":" . $firstrepeat->sup();
+						}
+						$blank[] = "";
+					}
+					break;
 				case "{{LASTREPEAT}}":
 				case "{{LASTREPEATEND}}":
 					static $dolastrepeat;
@@ -938,7 +946,14 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 						$blank[] = "";
 
 						$search[] = "{{LASTREPEATEND}}";
-						$replace[] = JEventsHTML::getDateFormat($lastrepeat->ydn(), $lastrepeat->mdn(), $lastrepeat->ddn(), 0);
+						if ($lastrepeat->rp_id() != $event->rp_id())
+						{
+							$replace[] = JEventsHTML::getDateFormat($lastrepeat->ydn(), $lastrepeat->mdn(), $lastrepeat->ddn(), 0);
+							$rawreplace[] =  $lastrepeat->ydn()."-".$lastrepeat->mdn()."-".$lastrepeat->ddn()." ".$lastrepeat->hdn().":".$lastrepeat->mindn().":".$lastrepeat->sdn();
+						}
+						else {
+							$replace[] = "";
+						}
 						$blank[] = "";
 					}
 					break;
@@ -996,7 +1011,7 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 							$pattern = '[a-zA-Z0-9&?_.,=%\-\/]';
 							if (strpos($event->contact_info(), '<a href=') === false && $event->contact_info() != "")
 							{
-								$event->contact_info(preg_replace('#(http://)(' . $pattern . '*)#i', '<a href="\\1\\2">\\1\\2</a>', $event->contact_info()));
+								$event->contact_info(preg_replace('@(https?://)(' . $pattern . '*)@i', '<a href="\\1\\2">\\1\\2</a>', $event->contact_info()));
 							}
 							// NO need to call conContentPrepate since its called on the template value below here
 						}
@@ -1025,10 +1040,10 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 						$dispatcher = JDispatcher::getInstance();
 						JPluginHelper::importPlugin('content');
 
-						$pattern = '[a-zA-Z0-9&?_.,=%\-\/]';
+						$pattern = '[a-zA-Z0-9&?_.,=%\-\/#]';
 						if (strpos($event->extra_info(), '<a href=') === false)
 						{
-							$event->extra_info(preg_replace('#(http://)(' . $pattern . '*)#i', '<a href="\\1\\2">\\1\\2</a>', $event->extra_info()));
+							$event->extra_info(preg_replace('@(https?://)(' . $pattern . '*)@i', '<a href="\\1\\2">\\1\\2</a>', $event->extra_info()));
 						}
 						//$row->extra_info(eregi_replace('[^(href=|href="|href=\')](((f|ht){1}tp://)[-a-zA-Z0-9@:%_\+.~#?&//=]+)','\\1', $row->extra_info()));
 						// NO need to call conContentPrepate since its called on the template value below here
@@ -1134,7 +1149,9 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 		// Date/time formats etc.
 		for ($s = 0; $s < count($search); $s++)
 		{
-			if (strpos($search[$s], "STARTDATE") > 0 || strpos($search[$s], "STARTTIME") > 0 || strpos($search[$s], "ENDDATE") > 0 || strpos($search[$s], "ENDTIME") > 0  || strpos($search[$s], "ENDTZ") > 0 || strpos($search[$s], "STARTTZ") > 0 || strpos($search[$s], "MULTIENDDATE") > 0)
+			if (strpos($search[$s], "STARTDATE") > 0 || strpos($search[$s], "STARTTIME") > 0 || strpos($search[$s], "ENDDATE") > 0 || strpos($search[$s], "ENDTIME") > 0
+				|| strpos($search[$s], "ENDTZ") > 0 || strpos($search[$s], "STARTTZ") > 0 || strpos($search[$s], "MULTIENDDATE") > 0
+				|| strpos($search[$s], "FIRSTREPEATSTART") > 0 || strpos($search[$s], "LASTREPEATEND") > 0)
 			{
 				if (!isset($rawreplace[$search[$s]]) || !$rawreplace[$search[$s]]){
 					continue;
@@ -1218,6 +1235,10 @@ function DefaultLoadedFromTemplate($view, $template_name, $event, $mask, $templa
 			$template_value = str_replace(array("[[","]]"), array("{","}"), $template_value);
 		}
 		
+		//We add new line characters again to avoid being marked as SPAM when using tempalte in emails
+		// do this before calling content plugins in case these add javascript etc. to layout
+		$template_value = preg_replace("@(<\s*(br)*\s*\/\s*(p|td|tr|table|div|ul|li|ol|dd|dl|dt)*\s*>)+?@i","$1\n",$template_value);
+
 		// Call content plugins - BUT because emailcloak doesn't identify emails in input fields to a text substitution
 		$template_value = str_replace("@", "@£@", $template_value);
 		$params = new JRegistry(null);
