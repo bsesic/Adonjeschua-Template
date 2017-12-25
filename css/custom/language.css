@@ -1,0 +1,41 @@
+
+/* Language Menu */
+.mod-languages {
+    float: right;
+    padding-right: 0;
+}
+
+.language{
+    margin-top: -7px;
+    float:right;
+    padding: auto;
+    margin-left: 6%;
+    right: 0px;
+    font-size: 12px;
+}
+.language ul{
+    border: none;
+}
+
+.language ul li{
+    background: #DED6AD;
+    color: #FFF;
+    border: none;
+    float: left;
+    margin-right: 0px;
+    padding: 8px 8px 4px;
+}
+
+.language ul li a{
+    background: #DED6AD;
+    color: #fff;
+}
+
+.language ul li.lang-active {
+    background: #BFA980;
+    color: #FFF;
+}
+
+.language ul li.lang-active a{
+    background: transparent;
+}

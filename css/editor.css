@@ -50,32 +50,32 @@ a:hover {
 	font-weight: normal;
 }
 
-div.caption       { padding: 0 10px 0 10px; }
-div.caption img   { border: 1px solid #CCC; }
-div.caption p     { font-size: .90em; color: #666; text-align: center; }
+.caption       { padding: 0 10px 0 10px; }
+.caption img   { border: 1px solid #CCC; }
+.caption p     { font-size: .90em; color: #666; text-align: center; }
 
 /* STYLES FOR JOOMLA! EDITOR */
-hr#system-readmore  { border: red dashed 1px; color: red; }
-hr.system-pagebreak { border: gray dashed 1px; color: gray; }
+#system-readmore  { border: red dashed 1px; color: red; }
+.system-pagebreak { border: gray dashed 1px; color: gray; }
 
-div.hinweise {
+.hinweise {
 	color: #D20031;
 }
 
-div.dekor1 {
+.dekor1 {
 	color: #DED6AD;
 }
 
-div.dekor2 {
+.dekor2 {
 	color: #BFA980;
 }
 
-div.akzent1 {
+.akzent1 {
 	color: #B8CC00;
 }
-div.akzent2 {
+.akzent2 {
 	color: #00AAD2;
 }
-div.akzent3 {
+.akzent3 {
 	color: #41291C;
 }

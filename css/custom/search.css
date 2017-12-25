@@ -1,0 +1,28 @@
+
+/* Search Input Box */
+.inputbox.search-query {
+    border-radius: 0px;
+    border: 1px solid #DED6AD;
+    padding: 2px;
+    width: 123px;
+    height: 22px;
+    float: right;
+}
+/* Icon & Search Button */
+.search .form-inline .btn {
+    padding: 10px 7px;
+}
+
+.search .form-inline .btn.glyphicon.glyphicon-search{
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-top: -1px;
+    background-color: #B8CC00;
+    line-height: 0px;
+    position:absolute;
+    float:right;
+    display:inline;
+    color: #FFF;
+    height: 22px;
+    right: 0px;
+}

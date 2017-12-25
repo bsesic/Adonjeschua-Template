@@ -118,3 +118,4 @@ $RECYCLE.BIN/
 
 # Created by .ignore support plugin (hsz.mobi)
 >>>>>>> refs/remotes/origin/master
+/node_modules/
